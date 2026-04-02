@@ -1,0 +1,5 @@
+{
+  "name": "Event Scanner Pro",
+  "description": "A mobile-optimized scanner for conferences and workshops, featuring real-time camera integration.",
+  "requestFramePermissions": ["camera"]
+}
