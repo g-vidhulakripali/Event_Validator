@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HSM Developer Community Event Validator
 
-# Run and deploy your AI Studio app
+Frontend application for the HSM Developer Community Event Validator. This application was specifically developed for the event on 15th April 2026, conducted by the HSM community.
 
-This contains everything you need to run your app locally.
+## Getting Started
 
-View your app in AI Studio: https://ai.studio/apps/9dfc622c-3528-4f18-b624-80302794ca59
+This is a Vite + React application. To get started locally, follow these steps:
 
-## Run Locally
+### Prerequisites
 
-**Prerequisites:**  Node.js
+- Node.js (v18 or higher recommended)
+- npm or yarn
 
+### Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository and navigate to the project folder.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Locally
+
+To run the development server:
+
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000`.
+
+### Building for Production
+
+To build the application for production:
+
+```bash
+npm run build
+```
+
+This will generate a `dist` directory with the compiled and minified assets.
+
+## Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
